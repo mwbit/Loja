@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block corpo %}
+<a href="/adiciona/">Adicionar novo Item</a>
+<ul>
+{% for iten in lista_itens %}
+    <li>
+        <a href="/item/{{item.id}}">
+            {{item.nm_usuario}}
+        </a>
+    </li>
+{%empty%}    
+    <li>sem itens</li>
+    
+            
+
+
+
+{% endblock %}

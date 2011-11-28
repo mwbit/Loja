@@ -1,0 +1,4 @@
+{% extends 'base.html' %}
+{% block corpo %}
+<h1>{{item.nm_usuario}}</h1>
+{% endblock %}
