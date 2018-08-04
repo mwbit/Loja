@@ -1,2 +1,2 @@
-# Loja
-# Django/Python Test
+# Store Example
+# Django/Python 
